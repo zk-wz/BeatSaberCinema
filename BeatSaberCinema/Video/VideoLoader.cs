@@ -383,7 +383,7 @@ namespace BeatSaberCinema
 		{
 			if (!level.hasPrecalculatedData)
 			{
-				return Collections.GetCustomLevelPath(level.levelID);
+				return Collections.GetLoadedSaveData(level.levelID)?.customLevelFolderInfo.folderPath ?? string.Empty;
 			}
 
 			var songName = level.songName.Trim();
