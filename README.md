@@ -1,3 +1,5 @@
+> This Project is a fork of [BeatSaberCinema](https://github.com/Kevga/BeatSaberCinema), created to maintain functionality as a seamless alternative during periods when the original repository hasn't been updated to support newer game versions.
+
 # BeatSaberCinema
 
 A Beat Saber plugin that allows you to sync up videos to play in the background of your maps, heavily inspired by MusicVideoPlayer. This plugin is currently only available for the PC version, there is no Quest release.
